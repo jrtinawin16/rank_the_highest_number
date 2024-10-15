@@ -16,3 +16,20 @@
         # print random_num3
 # If not 
         # print random_num5
+
+random_num1 = int(input("Please give first number: "))
+random_num2 = int(input("Please give second number: "))
+random_num3 = int(input("Please give third number: "))
+random_num4 = int(input("Please give fourth number: "))
+random_num5 = int(input("Please give fifth number: "))
+def find_highest(random_num1, random_num2, random_num3, random_num4, random_num5):
+    if random_num1 > random_num2:
+        if random_num1 > random_num3:
+            return random_num1
+        else:
+            return random_num1
+        
+
+
+result = find_highest(random_num1, random_num2, random_num3, random_num4, random_num5)
+print(f"The highest number is: {result}")
