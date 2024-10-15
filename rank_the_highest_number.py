@@ -27,9 +27,16 @@ def find_highest(random_num1, random_num2, random_num3, random_num4, random_num5
         if random_num1 > random_num3:
             return random_num1
         else:
-            return random_num1
-        
-
-
-result = find_highest(random_num1, random_num2, random_num3, random_num4, random_num5)
+            return random_num3
+    elif random_num2 > random_num3:
+        if random_num2 > random_num4:
+            return random_num2
+        else:
+            return random_num4
+    elif random_num3 > random_num4:
+        if random_num3 > random_num5:
+            return random_num3
+    else: 
+            return random_num5   
+result = find_highest(random_num1,random_num2,random_num3,random_num4,random_num5)
 print(f"The highest number is: {result}")
