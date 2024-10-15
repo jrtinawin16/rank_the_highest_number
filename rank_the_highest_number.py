@@ -5,15 +5,14 @@
     # if random_num1 is greater than random_num3
         # print random_num1
     # if not print random_num3
-# If not
-    # compare random_num2 to random_num3
-    # if random_num2 is greater than random_num3
+# If random_num 2 is greater than random_num3
+    # compare random_num2 to random_num4
+    # if random_num2 is greater than random_num4
         # print random_num2
-# If not 
-    # compare random_num 
-
-
-
-
+    # if not print random_num4
+# If random_num3 is greater than random_num4 
+    # compare random_num3 to random_num5 
+    # if random_num3 is greater than random_num5
+        # print random_num3
 # If not 
         # print random_num5
