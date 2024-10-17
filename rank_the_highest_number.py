@@ -1,15 +1,13 @@
 # Give prompt to user to input 5 random numbers
 # Compare random_num1, random_num2, random_num3, random_num4, & random_num5
-# If random_num1 is greater than random_num2
-    # compare random_num1 to random_num3
-    # if random_num1 is greater than random_num3
-        # print random_num1
-    # if not print random_num3
-# If random_num 2 is greater than random_num3
-    # compare random_num2 to random_num4
-    # if random_num2 is greater than random_num4
+# If random_num1 is greater than or equal to random_num2 and random_num1 is greater than or equal to random_num3
+            # print random_num1
+# If random_num2 is greater or equal to random_num1 and random_num2 is greater than or equal to random_num3
         # print random_num2
-    # if not print random_num4
+
+
+
+
 # If random_num3 is greater than random_num4 
     # compare random_num3 to random_num5 
     # if random_num3 is greater than random_num5
