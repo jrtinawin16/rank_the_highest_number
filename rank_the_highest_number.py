@@ -5,13 +5,18 @@
     # if random_num1 is greater than or equal to random_num4 and random_num5
         # print random_num1
 # If random_num2 is greater than or equal to random_num1 and random_num2 is greater than or equal to random_num3
-
-    # print random_num2
+    # compare random_num2 to random_num4 and randon_num5
+    # if random_num2 is greater than or equal to random_num4 and random_num5
+        # print random_num2
 # If random_num3 is greater than or equal to random_num2 and random_num3 is greater than or equal to random_num4
-    # print random_num3
+    # compare random_num3 to random_num1 and random_num5
+    # if random_num3 is greater than or equal to random_num1 and random_num5
+        # print random_num3
 # If random_num4 is greater than or equal to random_num3 and random_num4 is greater than or equal to random_num5
-    # print random_num4
-# If random_num5 is greater than or equal to random_num4 and random_num5 is greater than or equal to random_num3
+    # compare random_num4 to random_num1 and random_num2
+    # if random_num4 is greater than or equal to random_num1 and random_num2
+        # print random_num4
+# If not
     # print random_num5
 
 random_num1 = int(input("Please give first number: "))
